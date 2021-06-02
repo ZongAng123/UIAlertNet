@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  UIAlertNet
+//
+//  Created by 纵昂 on 2021/5/29.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// 在这里包括所有编译单元中应该包含的任何系统框架和库头。
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+// 您还需要设置一个或多个目标的前缀头生成设置以引用此文件。
+
+#import "AFNetworking.h"
+#import "ZAHomeService.h"  //封装的网络请求1
+#import "CHHTTPTool.h"     //封装的网络请求2
+#import <Masonry/Masonry.h>
+#pragma "Header.h"
+
+#define MAPUrlPrefix [mUserDefaults objectForKey:@"MAPUrlPrefix"]
+
+#define HeadUrlPrefix @"http://218.108.196.46:3580/zjystj/"
+
+
+//----------方法简写-------
+#define mKeyWindow          [[UIApplication sharedApplication] keyWindow]
+#define mUserDefaults       [NSUserDefaults standardUserDefaults]
+#define mFont(size)         [UIFont systemFontOfSize:size]
+#define mColor(color)       [UIColor color]
+#define TimeInterval        [mUserDefaults objectForKey:@"TimeInterval"]
+#define mStringWith(str)    [NSString stringWithFormat:@"%@",str]
+#define TOKen               [mUserDefaults objectForKey:@"TOKEN"]
+#define PId                 [mUserDefaults objectForKey:@"PID"]
+#define IOS8                ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? YES : NO)
+
+
+#endif /* PrefixHeader_pch */

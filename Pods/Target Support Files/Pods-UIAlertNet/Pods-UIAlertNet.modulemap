@@ -1,0 +1,6 @@
+framework module Pods_UIAlertNet {
+  umbrella header "Pods-UIAlertNet-umbrella.h"
+
+  export *
+  module * { export * }
+}

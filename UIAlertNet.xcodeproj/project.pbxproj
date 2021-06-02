@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB982E8AF033E00EB930800 /* Pods_UIAlertNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0334189CF95660EA19A3B1 /* Pods_UIAlertNet.framework */; };
 		747635BA2661D25D002D20B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635B92661D25D002D20B1 /* AppDelegate.m */; };
-		747635BD2661D25D002D20B1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635BC2661D25D002D20B1 /* SceneDelegate.m */; };
 		747635C02661D25D002D20B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635BF2661D25D002D20B1 /* ViewController.m */; };
 		747635C32661D25D002D20B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747635C12661D25D002D20B1 /* Main.storyboard */; };
 		747635C52661D25F002D20B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747635C42661D25F002D20B1 /* Assets.xcassets */; };
@@ -16,6 +16,8 @@
 		747635CB2661D25F002D20B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635CA2661D25F002D20B1 /* main.m */; };
 		747635D52661D260002D20B1 /* UIAlertNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635D42661D260002D20B1 /* UIAlertNetTests.m */; };
 		747635E02661D260002D20B1 /* UIAlertNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635DF2661D260002D20B1 /* UIAlertNetUITests.m */; };
+		747635F126625AE6002D20B1 /* ZAHomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635F026625AE6002D20B1 /* ZAHomeService.m */; };
+		74F21C152663951F00AF8D28 /* CHHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F21C142663951F00AF8D28 /* CHHTTPTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19A419D64901E792DD98CAA9 /* Pods-UIAlertNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertNet.release.xcconfig"; path = "Target Support Files/Pods-UIAlertNet/Pods-UIAlertNet.release.xcconfig"; sourceTree = "<group>"; };
+		1D0334189CF95660EA19A3B1 /* Pods_UIAlertNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIAlertNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747635B52661D25D002D20B1 /* UIAlertNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAlertNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747635B82661D25D002D20B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		747635B92661D25D002D20B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		747635BB2661D25D002D20B1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		747635BC2661D25D002D20B1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		747635BE2661D25D002D20B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		747635BF2661D25D002D20B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		747635C22661D25D002D20B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,13 @@
 		747635DB2661D260002D20B1 /* UIAlertNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		747635DF2661D260002D20B1 /* UIAlertNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertNetUITests.m; sourceTree = "<group>"; };
 		747635E12661D260002D20B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747635ED26625900002D20B1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		747635EF26625AE6002D20B1 /* ZAHomeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAHomeService.h; sourceTree = "<group>"; };
+		747635F026625AE6002D20B1 /* ZAHomeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAHomeService.m; sourceTree = "<group>"; };
+		74F21C132663951F00AF8D28 /* CHHTTPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHHTTPTool.h; sourceTree = "<group>"; };
+		74F21C142663951F00AF8D28 /* CHHTTPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHHTTPTool.m; sourceTree = "<group>"; };
+		74F21C162663978800AF8D28 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F7065239847ABD7FDCB63737 /* Pods-UIAlertNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAlertNet.debug.xcconfig"; path = "Target Support Files/Pods-UIAlertNet/Pods-UIAlertNet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB982E8AF033E00EB930800 /* Pods_UIAlertNet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		679E31B047863C18A37FCCAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7065239847ABD7FDCB63737 /* Pods-UIAlertNet.debug.xcconfig */,
+				19A419D64901E792DD98CAA9 /* Pods-UIAlertNet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		747635AC2661D25D002D20B1 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +107,8 @@
 				747635D32661D260002D20B1 /* UIAlertNetTests */,
 				747635DE2661D260002D20B1 /* UIAlertNetUITests */,
 				747635B62661D25D002D20B1 /* Products */,
+				679E31B047863C18A37FCCAD /* Pods */,
+				FEDB7FB9F42AEF8CA855C9C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +125,14 @@
 		747635B72661D25D002D20B1 /* UIAlertNet */ = {
 			isa = PBXGroup;
 			children = (
+				74F21C122663950400AF8D28 /* 封装的网络请求2 */,
+				747635EE26625AC3002D20B1 /* 封装的网络请求1 */,
 				747635B82661D25D002D20B1 /* AppDelegate.h */,
 				747635B92661D25D002D20B1 /* AppDelegate.m */,
-				747635BB2661D25D002D20B1 /* SceneDelegate.h */,
-				747635BC2661D25D002D20B1 /* SceneDelegate.m */,
 				747635BE2661D25D002D20B1 /* ViewController.h */,
 				747635BF2661D25D002D20B1 /* ViewController.m */,
+				747635ED26625900002D20B1 /* PrefixHeader.pch */,
+				74F21C162663978800AF8D28 /* Header.h */,
 				747635C12661D25D002D20B1 /* Main.storyboard */,
 				747635C42661D25F002D20B1 /* Assets.xcassets */,
 				747635C62661D25F002D20B1 /* LaunchScreen.storyboard */,
@@ -137,6 +160,32 @@
 			path = UIAlertNetUITests;
 			sourceTree = "<group>";
 		};
+		747635EE26625AC3002D20B1 /* 封装的网络请求1 */ = {
+			isa = PBXGroup;
+			children = (
+				747635EF26625AE6002D20B1 /* ZAHomeService.h */,
+				747635F026625AE6002D20B1 /* ZAHomeService.m */,
+			);
+			path = "封装的网络请求1";
+			sourceTree = "<group>";
+		};
+		74F21C122663950400AF8D28 /* 封装的网络请求2 */ = {
+			isa = PBXGroup;
+			children = (
+				74F21C132663951F00AF8D28 /* CHHTTPTool.h */,
+				74F21C142663951F00AF8D28 /* CHHTTPTool.m */,
+			);
+			path = "封装的网络请求2";
+			sourceTree = "<group>";
+		};
+		FEDB7FB9F42AEF8CA855C9C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D0334189CF95660EA19A3B1 /* Pods_UIAlertNet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 747635E42661D260002D20B1 /* Build configuration list for PBXNativeTarget "UIAlertNet" */;
 			buildPhases = (
+				D9B46D375D878198D6925043 /* [CP] Check Pods Manifest.lock */,
 				747635B12661D25D002D20B1 /* Sources */,
 				747635B22661D25D002D20B1 /* Frameworks */,
 				747635B32661D25D002D20B1 /* Resources */,
+				0596641ACFF5A64F6526A875 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +312,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0596641ACFF5A64F6526A875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIAlertNet/Pods-UIAlertNet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIAlertNet/Pods-UIAlertNet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIAlertNet/Pods-UIAlertNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B46D375D878198D6925043 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIAlertNet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		747635B12661D25D002D20B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,7 +362,8 @@
 				747635C02661D25D002D20B1 /* ViewController.m in Sources */,
 				747635BA2661D25D002D20B1 /* AppDelegate.m in Sources */,
 				747635CB2661D25F002D20B1 /* main.m in Sources */,
-				747635BD2661D25D002D20B1 /* SceneDelegate.m in Sources */,
+				74F21C152663951F00AF8D28 /* CHHTTPTool.m in Sources */,
+				747635F126625AE6002D20B1 /* ZAHomeService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +532,15 @@
 		};
 		747635E52661D260002D20B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7065239847ABD7FDCB63737 /* Pods-UIAlertNet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UIAlertNet/PrefixHeader.pch";
 				INFOPLIST_FILE = UIAlertNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +553,15 @@
 		};
 		747635E62661D260002D20B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A419D64901E792DD98CAA9 /* Pods-UIAlertNet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UIAlertNet/PrefixHeader.pch";
 				INFOPLIST_FILE = UIAlertNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
